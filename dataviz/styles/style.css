@@ -10,7 +10,7 @@ $hHeader: linear-gradient(to right, #3d3f74, #6757a0);
 $hHeaderText: #fff;
 $hText: #73629e;
 $hBorder: #d8dde6;
-$hLinkBorder: rgba(0,0,0,.15);
+$hLinkBorder: rgba(0, 0, 0, 0.15);
 
 $sfHeader: #dae0e4;
 $sfHeaderText: #29347c;
@@ -97,14 +97,7 @@ header {
 
   .title {
     font-weight: 400;
-/*
-    &:after {
-      margin-left: 15px;
-      content: '⁂';
-      display: inline-block;
-      opacity: 0.5;
-    }
-*/
+
     @media screen and (max-width: 500px) {
       display: none;
     }
